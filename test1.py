@@ -10,7 +10,7 @@ def print_directory_contents(sPath):
         else:
             print(sChildPath)
 print_directory_contents('/Users/amorris')
-'''####  
+####  
 
 A0 = dict(zip(('a','b','c','d','e'),(1,2,3,4,5)))
 A1 = range(10)
@@ -20,7 +20,7 @@ print A3
 
 for s in A0:
     print (s,A0[s])
-### list comprehension
+'''### list comprehension
 
 l = [1,3,4,6,7,8,9,14,15,17,19,18,11,12,1,3,14,15]
 y = [ x for x in l[::2] if x%2 == 0]
