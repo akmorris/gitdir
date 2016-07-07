@@ -1,0 +1,2 @@
+# gitdir
+Test repository
