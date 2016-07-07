@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import os
-'''def print_directory_contents(sPath):
+def print_directory_contents(sPath):
     import os                                       
     for sChild in os.listdir(sPath):                
         sChildPath = os.path.join(sPath,sChild)
@@ -10,7 +10,7 @@ import os
         else:
             print(sChildPath)
 print_directory_contents('/Users/amorris')
-####  
+'''####  
 
 A0 = dict(zip(('a','b','c','d','e'),(1,2,3,4,5)))
 A1 = range(10)
