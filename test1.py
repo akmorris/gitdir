@@ -20,6 +20,21 @@ print A3
 
 for s in A0:
     print (s,A0[s])
+#adding regex to find the baby name
+nDict = {}
+list_of_tuples = [(53,'abhigail','veronica'),(33,'anney','morris'),(33,'jose','lilly')]
+for t in list_of_tuples:
+    (grade,bname,gname) = t[0],t[1],t[2]
+    if bname in nDict:
+        pass
+    else: nDict[bname] = grade
+    if gname in nDict:
+        pass
+    else: nDIct[gname] = grade
+sorted_keys = sorted(nDict.keys())
+for key in sorted_keys:
+    print key, nDict[key]
+
 '''### list comprehension
 
 l = [1,3,4,6,7,8,9,14,15,17,19,18,11,12,1,3,14,15]
